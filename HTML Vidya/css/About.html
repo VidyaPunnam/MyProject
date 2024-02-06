@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+    <style>
+        
+        
+        img {
+            width: 400px;
+            height: 225px; 
+            border-radius: 20px; 
+        }
+        #image-display{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        </style>
+</head>
+<body>
+   
+    <div class="about-container">
+         <h1 style="text-align: center;">About us</h1> 
+        <div class="text-container">
+           
+                    <div class="image-container">
+                        <img  id="image-display"src="https://www.srit.ac.in/wp-content/uploads/2021/12/srini-ramanuj-img-main-768x729.jpeg" alt="">
+                    </div>
+                    <p style="margin-right: 50px;">
+                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Established in the year 2008 and reputable as one of the leading
+                        educational institutions in the technical and engineering. Permanently Affiliated to JNTU Ananthapuramu, the institute has been approved by the AICTE New Delhi, and has an enviable record of producing
+                         Engineering graduates who have achieved success in their chosen fields of endeavors. <br><br>
+                         
+                        </p>
+                        <div id="hiddenParagraph" class="hidden-content" style="display:none;">
+                            <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Situated at the outskirts of Rotarypuram Village, B.K. Samudram Mandal in the district of Ananthapuramu, and is the brainchild of Sri Aluru Sambasiva Reddy. While he was a professor in the field of engineering, he realised that Ananthapuramu lacked a quality 
+                            technical institute that catered to students from rural areas and those from the economically challenged strata of society. Hence, he started a non-profit organisation which has a focus on imparting the best technical education to these students. <br>
+                           <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Society was established by Founder-cum-Secretary Sri Aluru Sambasiva Reddy in November 2007 in memory of his mother, Late Smt. Aluru Narayanamma, to give shape to his firm belief that “EDUCATION IS A KEY ENABLER FOR PROGRESS”. This belief has shaped his entire life – he himself excelled in his scholastic years and then became a tutor, teaching students
+                             not only his subject but also imparting higher human values. As his career progressed, he wanted to ensure that maximum students from rural and developing areas could derive benefit from this credo.</p>
+                        </div>
+                        <button id="readMoreBtn" style="display:block;" onclick="showHiddenContent()">Read more</button>
+                        <button id="hideBtn" class="hidden-content" style="display:none;" onclick="hideHiddenContent()">Hide</button>
+                    
+                    
+            </div>
+            <script>
+                function showHiddenContent() {
+                    document.getElementById('hiddenParagraph').style.display = 'block';
+                    document.getElementById('readMoreBtn').style.display = 'none';
+                    document.getElementById('hideBtn').style.display = 'inline-block';
+                }
+            
+                function hideHiddenContent() {
+                    document.getElementById('hiddenParagraph').style.display = 'none';
+                    document.getElementById('readMoreBtn').style.display = 'inline-block';
+                    document.getElementById('hideBtn').style.display = 'none';
+                }
+            </script>
+        </body>
+        </html>

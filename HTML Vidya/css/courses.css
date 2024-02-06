@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+button{
+width: 200px;
+height: 25px;
+margin: 20px;
+}
+.CSE{
+height: 200px;
+width: 300px;
+background-color: #ffc252;
+}
+.ECE{
+height: 200px;
+width: 300px;
+background-color: #add8e6;
+}
+.EEE{
+height: 200px;
+width: 300px;
+background-color: #90ee90;
+}
+.CIVIL{
+height: 200px;
+width: 300px;
+background-color: #d3d3d3;
+}
+.MECH{
+height: 200px;
+width: 300px;
+background-color: #d8e9e0;
+}
+.DATASCIENCE{
+height: 200px;
+width: 300px;
+background-color: rgba(129, 72, 7, 0.324);
+}
+    
+ 

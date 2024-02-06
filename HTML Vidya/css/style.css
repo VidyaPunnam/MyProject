@@ -1,0 +1,22 @@
+h1{
+    text-align: center; 
+            color: brown; 
+            size: 30;
+             width: 12;
+             height: 13;
+             border: 20;
+             background-color: blue;
+             font-family: cursive;
+}
+h2,h3{
+    text-align: right; 
+    color: green; 
+    size: 25;
+     width: 15;
+     height: 17;
+     background-color: pink;
+     font-family: fantasy;
+}
+body{
+    background-color: red;
+}
